@@ -1,38 +1,126 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navSty{
+  padding-right: 10px;
+  padding-left: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.baseBtn{
+  background-color: black;
+  color: whitesmoke;
+  border: none;
+  font-weight: bolder;
+  margin-left: 30px;
+}
+.baseBtn:hover{
+  background-color: whitesmoke;
+  color: black;
+  font-weight: bolder;
+}
+.logoutBtn{
+  background-color: black;
+  color: whitesmoke;
+  border: none;
+  font-weight: bolder;
+}
+.logoutBtn:hover{
+  background-color: whitesmoke;
+  color: black;
+  font-weight: bolder;
+}
+hr{
+  color: whitesmoke;
 }
 
-.App-header {
-  background-color: #282c34;
+.card-div{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin: 5px;
+  gap: 1rem;
+}
+.body-div{
+  background-color: #005960;
+  color: whitesmoke;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+}
+
+.studBtn{
+  box-shadow: 5px 5px 5px black;
+  font-weight: bolder;
+}
+.editBtn{
+  margin-right: 20px;
+}
+.deleteBtn{
+  margin-right: 20px;
+}
+.textArea{
+  width: 400px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.addData{
+  text-align: center;
+  display: grid;
+  justify-items: center;
+}
+.formLabel{
+  font-size: 30px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+.formSty{
+  width: 380px;
+  background-color: #005960;
+  color: whitesmoke;
+  border-radius: 10px;
+  text-align: center;
+  border-width: 1px;
+  box-shadow: 5px 5px 5px black;
+  border-color: whitesmoke;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.funtionBtn{
+  box-shadow: 5px 5px 5px black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width:100px;
+  font-weight: bolder;
 }
+.viewCard{
+ display: grid;
+ justify-items: center;
+ text-align: center;
+ margin-top: 100px;
+}
+.loginForm{
+  display: grid;
+  justify-items: center;
+  text-align: center;
+}
+.loginBtn{
+  box-shadow: 5px 5px 5px black;
+  width:100px;
+  font-weight: bolder;
+}
+.loginLabel{
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+.loginData{
+  border: 2px solid whitesmoke;
+  padding: 10px;
+}
+.loginStyle{
+  background-color: #005960;
+  color: whitesmoke;
+  padding-top: 50px;
+  min-height: 100vh;
+  text-align: center;
+}
+

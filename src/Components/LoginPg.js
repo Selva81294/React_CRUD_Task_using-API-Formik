@@ -24,7 +24,7 @@ const loginStudents = ()=>{
 
     return(
             <div className="loginStyle">
-                <h1 style={{marginBottom:"30px"}}> 🙂 WELCOME TO STUDENTS APP 🙂</h1>
+                <h1 style={{marginBottom:"30px"}}> 🙂 STUDENTS MANAGEMENT APP 🙂</h1>
                 <Form className="loginForm">
                 <div className="loginData">
                 <h5>Username : selva</h5>

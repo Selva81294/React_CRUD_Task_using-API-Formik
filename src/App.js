@@ -13,7 +13,7 @@ function App(){
 useEffect(()=>{
   const getStudents = async ()=>{
     try {
-      const response = await fetch("https://63b3190d5901da0ab3773d01.mockapi.io/users",{method:"GET"})
+      const response = await fetch("http://localhost:9000/students",{method:"GET"})
       const data = await response.json();
       setStud(data);
     } catch (error) {
